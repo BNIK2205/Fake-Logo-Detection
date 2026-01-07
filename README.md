@@ -1,1 +1,28 @@
-This paper deals with finding fake logo by matching and recognizing it with the original logo. This is done by dividing the image of logo into rows and columns and thus each cell has its index value .Taking the index value of each cell which belongs to the image of logo to be verified check it with the original image index value of the corresponding cell. From the relation between index values of both the original logo and the one being considered we could decide it whether it is fake logo or original logo. If the index values of all the cells are exactly matching with the actual logo then it is considered to be original logo, otherwise it is the fake logo. This process is achieved by using CNN logo detection and recognition algorithm.
+# Fake Logo Detection 📛
+
+A deep learning-based Python project that detects **fake or counterfeit logos** in images using a **Convolutional Neural Network (CNN)**.  
+The main goal is to determine whether a given logo image is authentic or fake by analyzing visual patterns and feature differences.
+
+> Implements CNN techniques to analyze logo image features and classify them as real or fake.
+
+---
+
+## 🧠 Project Overview
+
+Fake logo detection is a practical computer vision task that helps identify **counterfeit brands, altered logos, and unauthorized use of trademarked symbols** — useful for brand protection, copyright enforcement, and digital forensics.
+
+This project:
+- ✔️ Loads logo images
+- ✔️ Uses a CNN model to extract visual features
+- ✔️ Compares features to determine authenticity
+- ✔️ Outputs a classification result (Real / Fake)
+
+---
+
+## 🛠️ Features
+
+- 🤖 **CNN-based image classification** for logo authenticity
+- 🖼️ Handles input logo images
+- 📊 Outputs whether logo is likely real or fake
+- 🧪 Easy to extend with more data and model training
+
